@@ -8,7 +8,7 @@ use server_framework::ServerArgs;
 
 #[cfg(unix)]
 #[global_allocator]
-static ALLOC: jemallocator::Jemalloc = jemallocator::Jemalloc;
+static ALLOC: tikv_jemallocator::Jemalloc = tikv_jemallocator::Jemalloc;
 
 const RUNTIME_WORKER_MULTIPLIER: usize = 2;
 

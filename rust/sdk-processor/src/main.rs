@@ -5,7 +5,7 @@ use sdk_processor::config::indexer_processor_config::IndexerProcessorConfig;
 
 #[cfg(unix)]
 #[global_allocator]
-static ALLOC: jemallocator::Jemalloc = jemallocator::Jemalloc;
+static ALLOC: tikv_jemallocator::Jemalloc = tikv_jemallocator::Jemalloc;
 
 const RUNTIME_WORKER_MULTIPLIER: usize = 2;
 
