@@ -26,5 +26,5 @@ tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
 warp = { workspace = true }
 
-[target.'cfg(target_os = "linux")'.dependencies]
-aptos-system-utils = { git = "https://github.com/Galxe/gravity-aptos-core.git", rev = "ed6cd222726eecf02fbdd7576f02b9bcf0caea76" }
+# [target.'cfg(target_os = "linux")'.dependencies]
+# aptos-system-utils = { git = "https://github.com/Galxe/gravity-aptos-core.git", rev = "ed6cd222726eecf02fbdd7576f02b9bcf0caea76" }
